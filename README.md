@@ -36,8 +36,8 @@ Explain what these tests test and why
 
 ```
 ls
-README.md  folder1/   folder2/  
-$
+folder1/   folder2/  
+
 ./zipper.sh
 set password <set password>
 passwordfolder1
