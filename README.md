@@ -18,8 +18,7 @@ git clone https://github.com/l0renzor/zipper
 
 A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
-
+set the permissions Owner rxw | Group r-x | Others r-x
 ```
 chmod 755 zipper.sh
 ```
@@ -36,7 +35,21 @@ Explain how to run the automated tests for this system
 Explain what these tests test and why
 
 ```
-Give an example
+ls
+README.md  folder1/   folder2/  
+$
+./zipper.sh
+set password <set password>
+passwordfolder1
+ adding: folder1/ (stored 0%)
+folder2
+ adding: folder2/ (stored 0%)
+$ ls -la
+
+drwxr-xr-x    64B 25 Mar 15:06 folder1/
+-rw-r--r--   166B 25 Mar 15:06 folder1.zip
+drwxr-xr-x    64B 25 Mar 15:06 folder2/
+-rw-r--r--   166B 25 Mar 15:06 folder2.zip
 ```
 
 ### And coding style tests
@@ -47,36 +60,7 @@ Explain what these tests test and why
 Give an example
 ```
 
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags).
-
-## Authors
-
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
